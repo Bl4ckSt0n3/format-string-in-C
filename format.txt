@@ -1,0 +1,97 @@
+In this tutorial we are going to look at some of format string functions in C language. 
+
+Ok then lets begin...
+
+						    puts()
+
+The first we have puts() function in our hand. This function is used to print a string stream on the output
+
+however with newline. When you use this function probably your output will be on the newline. If not then, 
+
+it has a trouble look at your code again.  
+
+
+
+syntax of puts() in C below:
+
+	puts(string);
+
+
+
+example:
+
+	int formatPuts()
+	{
+		puts("this is a string");
+	}
+
+
+						    fputs()
+
+The second we are looking for fputs() function at this time. In this function 'no newline' differently and
+
+has a one more parameter which is 'stdout'. Out of this nearly same with other puts() function.
+
+
+
+syntax of fputs() in C below:
+
+	fputs(string,stdout);
+
+
+
+example:
+
+
+	int formatfPuts()
+	{
+		fputs("this is a string no newline",stdout);
+	}
+
+
+
+
+
+						    printf()
+
+
+This is the most common way to print text long on output and we have not newline again by the way we have to use
+that form "\n" in the last of string. Also this function print other values of variables and it is complex.
+
+
+
+syntax of printf() in C below:
+	
+
+	printf(string);
+
+
+
+
+example:
+
+
+	int printfFun()
+	{
+		printf("this is a text in printf() function\n");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
